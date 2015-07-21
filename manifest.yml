@@ -1,7 +1,7 @@
 applications:
 - name: hpcloudrecruit
   mem: 256M
-  instances: 1
+  instances: 3
   services:
     hpcloudrecruit-db:
       type: mysql
