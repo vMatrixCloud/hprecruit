@@ -1,5 +1,5 @@
 applications:
-- name: hpcloudrecruit
+- name: hprecruit-demo
   mem: 256M
   instances: 1
   services:
