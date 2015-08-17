@@ -1,9 +1,9 @@
 applications:
 - name: hpcloudrecruit
   mem: 256M
-  instances: 3
+  instances: 1
   services:
-    hpcloudrecruit-db:
+    ${name}-hpcloudrecruit-db:
       type: mysql
   helion:
     hooks:
